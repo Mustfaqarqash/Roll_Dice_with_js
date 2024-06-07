@@ -14,11 +14,11 @@ function imgGenerator() {
     doneTxt.innerText = "";
     let sumDelay = 0;
     for (var i = 0; i < 12; i++) {
-        setTimeout(() => { numGenerator() }, 500 * i);
+        setTimeout(() => { numGenerator() }, 300 * i);
        
         //seconde = 300 300 600 1800 
     }
-    sumDelay=(i * 500);
+    sumDelay=(i * 300);
    setTimeout(()=> doneTxt.innerText="Roll again!!" ,sumDelay )
     
 
